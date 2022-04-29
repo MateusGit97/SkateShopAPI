@@ -11,5 +11,6 @@ namespace SkateShopAPI.Models
         public string Nome { get; set; }
         public int Telefone { get; set; }
         public string Email { get; set; }
+        public virtual ICollection<Endereco> Enderecos { get; set; }
     }
 }
